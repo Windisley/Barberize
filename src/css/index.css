@@ -220,6 +220,7 @@ font-size: var(--text-title);
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 
 }
 
@@ -247,7 +248,7 @@ font-size: var(--text-title);
     font-family: "Island Moments", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: white;
     text-align: center;
 }
@@ -314,6 +315,12 @@ font-size: var(--text-title);
     background-color: #222121;
     
 }
+
+
+
+
+
+
 
 
 
