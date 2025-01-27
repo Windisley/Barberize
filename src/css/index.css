@@ -116,7 +116,6 @@ p,span,button,h1,h2,h3{
 
 .container .section2 .boxtow{
     width: 100%;
-    max-width: var(--max-container);
     padding: 1rem;
     margin: 0 auto;
     
@@ -129,6 +128,8 @@ width: 100%;
  justify-content: center;
  align-items: center;
  margin: 0 auto;
+ opacity: 0;
+ transition: .6s ease-in-out;
 }
 
 .container .section2 .boxtow .boxtextcourt h2{
@@ -164,7 +165,7 @@ font-size: var(--text-title);
     display: flex;
     transform: translateX(0);
     position: relative;
-    transition: 1s ease-in-out;
+ 
 
 }
 
@@ -179,7 +180,7 @@ font-size: var(--text-title);
     left: 100%;
     top: 50%;
     transform: translateY(-50%);
-    animation: Carrossel 6s linear infinite;
+    animation: Carrossel 5s linear infinite;
     animation-delay: var(--delay-carrossel);
     border: 1px solid;
      
@@ -192,7 +193,10 @@ font-size: var(--text-title);
 }
 
 @keyframes Carrossel{
-   
+   0%{
+    left: 100%;
+
+   }
     100%{
         left: -300px;
     
@@ -345,12 +349,84 @@ font-size: var(--text-title);
     text-align: center;
 }
 
+@media screen and (width <= 1300px) {
+    .container .section2 .boxtow .boxslide .containerslide .translateslide img{
+        width: 200px;
+         
+    }
+    
+}
+
+@media screen and (width <= 775px) {
+    .container .section2 .boxtow .boxslide .containerslide .translateslide img{
+        width: 180px;
+         
+    }
+
+    .section3 .boxtrhee .boxcontato{
+       flex-direction: column;
+       padding: 8px;
+    }
+
+    .section3{
+        background-position: 50% 100%;
+    }
+
+    
+}
+@media screen and (width <= 665px){
+    .container .section2 .boxtow .boxslide .containerslide .translateslide img{
+        width: 150px;
+        height: 200px;
+    }
+
+    .container .section2 .boxtow .boxtextcourt h2{
+        max-width: 100%;
+  
+        }
+
+
+}
 @media screen and (width <= 600px) {
     .container .section1{
         background-position: 60% 100%;
         background-image: linear-gradient(to left, rgba(0,0,0,.5), rgba(0,0,0,.6)), url(/public/imgs/background.jpg);
     }
+
+    .section3{
+        background-position: 50% 100%;
+    }
+
+
+    .container .section1 .boxone .boxpromisse h1{
+        max-width: 98%;
+        font-size: 1.3rem;
+  
+     }
+
+     .container .section2 .boxtow .boxslide .containerslide .translateslide img{
+        width: 130px;
+        height: 200px;
+    }
+
+    
+    
 }
+
+@media screen and (width <= 405px) {
+    .section3 .boxtrhee .boxcontato form{
+        width: 320px;
+    
+    
+    }
+
+    .container .section2 .boxtow .boxslide .containerslide .translateslide img{
+        width: 110px;
+        height: 200px;
+    }
+    
+}
+
 
 
 
