@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
+
+p,span,button,h1,h2,h3{
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.logo p{
+    font-family: "Island Moments", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.container{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+.container .section1{
+    width: 100%;
+    min-height: 100dvh;
+    position: relative;
+    background-image: linear-gradient(to left, rgba(0,0,0,.5), rgba(0,0,0,.6)), url(/public/imgs/background.jpg);
+}
+
+
+
+ 
