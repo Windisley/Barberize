@@ -87,7 +87,7 @@ p,span,button,h1,h2,h3{
     font-size: var(--text-title);
     color: white;
     font-weight: 600;
-    animation: animationhidden 1.5s 1 var(--delay8) ease-in-out;
+    animation: animationhidden 2s 1 var(--delay8) ease-in-out;
  }
 
 
